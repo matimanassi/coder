@@ -5,11 +5,14 @@
 </head>
 <body>
     <header>
-        <h1>Mi sitio de libros</h1>
+        <h1>My Site</h1>
     </header>
     <nav>
         <ul>
             <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'agregar_autor' %}">Agregar Autor</a></li>
+            <li><a href="{% url 'buscar_libro' %}">Buscar Libro</a></li>
+            <li><a href="{% url 'listar_autores' %}">Listar Autores</a></li>
         </ul>
     </nav>
     <main>
